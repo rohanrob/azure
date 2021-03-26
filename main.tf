@@ -9,12 +9,12 @@ terraform {
 }
 
 # Configure the Microsft Aure Provider
-provider "azurerm" {
-  features {}
+# provider "azurerm" {
+#  features {}
 }
 
 # Create resource group
-resource "azurerm_resource_group" "myrg" {
+resource "azurerm_resource_group" "mybigbadrg" {
   name     = "my-res-group"
   location = "eastus2"
 }
